@@ -285,3 +285,33 @@
 #     print(f"Выиграл {player1}")
 # else:
 #     print(f"Выиграл {player2}")
+
+# --1 zad
+# list = [i for i in range(1, 21) if i % 2 == 0]
+# print(list)
+
+# ---2 zad
+# list = [(i, i) for i in range(1, 21) if i % 2 == 0]
+# print(list)
+
+# ---3 zad
+# def f(x):
+#     return x**3
+
+
+# list = [(i, f(i)) for i in range(1, 21) if i % 2 == 0]
+# print(list)
+
+# ---4zd
+# def select(f, col):
+#     return [f(x) for x in col]
+
+
+# def where(f, col):
+#     return [x for x in col if f(x)]
+
+
+# data = [i for i in range(1, 21) if i % 2 == 0]
+# res = select(int, data)
+# res = where(lambda x: not x % 2, res)
+# print(res)
